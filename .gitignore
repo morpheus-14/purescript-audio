@@ -11,3 +11,6 @@ node_modules
 .psa*
 .psci
 output
+
+# Node
+package-lock.json
