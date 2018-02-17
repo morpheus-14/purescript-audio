@@ -19,8 +19,6 @@ import Data.Traversable (for)
 import Data.Traversable (sequence)
 import Unsafe.Coerce (unsafeCoerce)
 
-foreign import initializeAudio :: forall eff. Eff eff Unit
-
 foreign import playFrequency_ :: forall eff. Frequency -> Time -> (Unit -> Eff eff Unit) -> Eff eff Unit
 
 playFrequency :: forall eff. Frequency -> Time -> Aff eff Unit

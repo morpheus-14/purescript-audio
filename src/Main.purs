@@ -15,7 +15,6 @@ import Data.Traversable (for, sequence)
 
 main :: forall e. Eff (console :: CONSOLE | e) Unit
 main = do
-   initializeAudio
    launchAff_ $  do
     -- _ <- sequence $ play (createSound [G, F, G, F, G, G, C, G, F, G, F, G, G] [X, P, X, P, X, R] 3.33)
     

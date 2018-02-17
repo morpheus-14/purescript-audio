@@ -4,7 +4,6 @@ module Audio.Types ( Sound
                    , Patterns
                    , Pattern (..)
                    , Note (..)
-                   , BaseTime (..)
                    ) where
 
 
@@ -14,8 +13,6 @@ type Frequency = Number
 type Time = Number
 
 type Patterns = Array Pattern
-
-data BaseTime = Frequency Frequency | Time Time
 
 data Pattern = X | P | R
 
