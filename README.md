@@ -4,6 +4,7 @@ Basic web audio extensions for Purescript
 ## Steps to set up
 
 bower install
+
 npm install
 
 ### Build Project
@@ -12,7 +13,7 @@ npm start
 
 ## Example Usage
 
-``` 
+```purescript
     launchAff_ $ do
                sequence $ playNotes [G, F, G, F, G, D, G, C, C, B, C, C, D, C, G, F] 0.3
 ```
