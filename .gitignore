@@ -4,5 +4,10 @@ bower_components
 node_modules
 
 # Generated files
+.pulp-cache
+.psc*
+.purs*
+.psc-package
+.psa*
 .psci
 output
