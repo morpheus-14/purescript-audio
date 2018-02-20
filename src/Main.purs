@@ -17,6 +17,4 @@ main :: forall e. Eff (console :: CONSOLE | e) Unit
 main = do
    launchAff_ $  do
     -- _ <- sequence $ play (createSound [G, F, G, F, G, G, C, G, F, G, F, G, G] [X, P, X, P, X, R] 3.33)
-    
     sequence $ playNotes [G, F, G, F, G, D, G, C, C, B, C, C, D, C, G, F] 0.3
-    
